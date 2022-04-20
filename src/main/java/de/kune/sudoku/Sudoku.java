@@ -2,7 +2,7 @@ package de.kune.sudoku;
 
 public class Sudoku {
 
-    byte[][] grid;
+    private final byte[][] grid;
 
     public Sudoku(byte[][] grid) {
         if (grid.length != 9) {
